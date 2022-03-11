@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="movie-nowplay.css">
+</head>
+<body>
+  
+    <!-- NAVBAR -->
+    <header class="header">
+      <div class="hamburger">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </div>
+  
+      <nav class="navbar">
+        <ul class="list">
+          <li><a href="index.html">HOME</a></li>
+          <li class="dropdown"><a href="#">Movie</a>
+            <ul class="drop-list">
+              <li><a href="movie-populer.html">Popular</a></li>
+              <li><a href="movie-nowplay.html">Now playing</a></li>
+              <li><a href="movie-upcoming.html">Upcoming</a></li>
+              <li><a href="movie-top_rated.html">Top Rated</a></li>   
+            </ul>
+          </li>
+          <li class="dropdown-tv"><a href="#">TV Series</a>
+            <ul class="tv-list">
+              <li><a href="tv-populer.html">Popular</a></li>
+              <li><a href="tv-airing-today.html">Airing Today</a></li>
+              <li><a href="tv-ontv.html">On TV</a></li>
+              <li><a href="tv-top_rated.html">Top Rated</a></li>     
+            </ul>
+          </li>
+          <li><a href="#">People</a>
+            <ul class="people-list">
+              <li><a href="populer-people.html">Popular People</a></li> 
+            </ul>
+          </li>
+        </ul>
+        <form class="forms">
+          <input class="srcx" type="search" placeholder="Search" aria-label="Search">
+          <button type="button" class="baton" type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+      <!-- END NAVBAR -->
+
+    <div class="container">
+
+<div class="left-menu">
+<h1 class="title">Now Playing Movies</h1>
+
+<div class="filter-menu">
+
+<section class="sort-genre">
+  <h3 class="judul">Genres</h3>
+<div class="genres">
+
+</div>
+</section>
+
+<div class="watch">
+  <h3 class="judul">Where to Watch</h3>
+<select name="" id="" class="country">
+
+</select>
+  <div class="watch-logo">
+
+  </div>
+</div>
+<button class="search">Search</button>
+</div>
+</div>
+
+<div class="main">
+<div class="content">
+  <div class="lds-facebook"><div></div><div></div><div></div></div>
+</div>
+
+<div class="pagination"></div>
+</div>
+<div class="tes">
+
+</div>
+    </div>
+    
+    <div class="footers">
+      <div class="footer-info">
+        <span>Powered By</span>
+<a href="https://developers.themoviedb.org/3/getting-started/introduction" target="_blank">
+  <img src="img1/tmdb-logo.svg" alt="">
+</a>
+      </div>
+    </div>
+
+    <script src="movie-all.js"></script>
+    <script src="movie-nowplay.js"></script>
+</body>
+</html>

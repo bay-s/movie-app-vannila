@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/solid.css">
+    <LINK></LINK>
+    <title>MOVIE APP</title>
+  </head>
+  <body>
+<script>
+  window.addEventListener('load', (event) => {
+    populerMovie()
+    trendingTV() 
+    document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+  });
+
+});
+</script>
+
+
+    <!-- NAVBAR -->
+    <header class="header">
+      <div class="hamburger">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </div>
+  
+      <nav class="navbar">
+        <ul class="list">
+          <li><a href="index.html">HOME</a></li>
+          <li class="dropdown"><a href="#">Movie</a>
+            <ul class="drop-list">
+              <li><a href="movie-populer.html">Popular</a></li>
+              <li><a href="movie-nowplay.html">Now playing</a></li>
+              <li><a href="movie-upcoming.html">Upcoming</a></li>
+              <li><a href="movie-top_rated.html">Top Rated</a></li>   
+            </ul>
+          </li>
+          <li class="dropdown-tv"><a href="#">TV Series</a>
+            <ul class="tv-list">
+              <li><a href="tv-populer.html">Popular</a></li>
+              <li><a href="tv-airing-today.html">Airing Today</a></li>
+              <li><a href="tv-ontv.html">On TV</a></li>
+              <li><a href="tv-top_rated.html">Top Rated</a></li>     
+            </ul>
+          </li>
+          <li><a href="#">People</a>
+            <ul class="people-list">
+              <li><a href="populer-people.html">Popular People</a></li> 
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <!-- END NAVBAR -->
+
+  
+  <div class="bannerz">
+<div class="title">
+  <h1 class="jdl">Welcome.</h1>
+  <p>Millions of movies, TV shows and people to discover. Explore now.</p>
+</div>
+<form class="forms">
+  <input class="srcx" type="search" placeholder="Search" aria-label="Search">
+  <button type="button" class="baton" type="submit">Search</button>
+</form>
+  </div>
+
+
+  <!-- loading -->
+      
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+  <!-- CONTENT -->
+
+<div id="container">
+  
+    
+<div class="content">
+  
+  <div class="populer">
+   <h3 class="title">Popular Movie</h3>
+   <div class="popular">
+   
+   </div>
+     <div class="tombol">
+       <a href="#" class="kiri"></a>
+       <a href="#" class="kanan"></a>
+       </div>
+ </div>
+ 
+
+ <div class="video-container">
+  <h3 class="title">Trailers</h3>
+<div class="video-container-inner">
+
+</div>
+  <div class="tombols">
+    <a href="#" class="lefts"></a>
+    <a href="#" class="rights"></a>
+   </div>
+ </div>
+ 
+ <div class="trending">
+   <h3 class="title">Trending</h3>
+   <div class="trend">
+  
+ </div>
+ <div class="tomb">
+  <a href="#" class="left"></a>
+  <a href="#" class="right"></a>
+ </div>
+ </div> 
+ 
+ </div>
+ 
+ <div class="modal-video">
+
+ </div>
+ 
+ <div class="footers">
+  <div class="footer-info">
+    <span>Powered By</span>
+<a href="https://developers.themoviedb.org/3/getting-started/introduction" target="_blank">
+<img src="img1/tmdb-logo.svg" alt="">
+</a>
+  </div>
+</div>
+ 
+</div>
+<script src="index.js"></script>
+<script src="movie-app.js"></script>
+  </body>
+</html>
+
+
